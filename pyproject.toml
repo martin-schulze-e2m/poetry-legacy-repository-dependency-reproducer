@@ -13,3 +13,7 @@ pydantic = "^2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "legacy"
+url = "https://pypi.python.org/pypi"
