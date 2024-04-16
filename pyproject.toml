@@ -7,9 +7,20 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pydantic = "^2"
+pydantic = {version = "^2", source = "PyPI"}
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+[[tool.poetry.source]]
+name = "legacy"
+url = "https://pypi.python.org/pypi"
+priority = "primary"
+
+
+
