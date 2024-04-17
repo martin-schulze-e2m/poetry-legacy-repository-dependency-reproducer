@@ -15,12 +15,12 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [[tool.poetry.source]]
-name = "PyPI"
-priority = "primary"
-[[tool.poetry.source]]
 name = "legacy"
 url = "https://pypi.python.org/pypi"
 priority = "primary"
 
 
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
 

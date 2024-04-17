@@ -11,6 +11,11 @@ files = [
     {file = "annotated_types-0.6.0.tar.gz", hash = "sha256:563339e807e53ffd9c267e99fc6d9ea23eb8443c08f112651963e24e22f84a5d"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://pypi.python.org/pypi"
+reference = "legacy"
+
 [[package]]
 name = "pydantic"
 version = "2.7.0"
@@ -121,6 +126,11 @@ files = [
 [package.dependencies]
 typing-extensions = ">=4.6.0,<4.7.0 || >4.7.0"
 
+[package.source]
+type = "legacy"
+url = "https://pypi.python.org/pypi"
+reference = "legacy"
+
 [[package]]
 name = "typing-extensions"
 version = "4.11.0"
@@ -132,7 +142,12 @@ files = [
     {file = "typing_extensions-4.11.0.tar.gz", hash = "sha256:83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://pypi.python.org/pypi"
+reference = "legacy"
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "668697ae8de80b77bced143f79abce115b3c32ab0f7e68f1544407781c1194e3"
+content-hash = "780ddf2eda37d6afd539b12858adf291c7f036b72b256367d552c560c676038b"
